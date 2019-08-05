@@ -14,7 +14,7 @@ set -e
 
 if [ -e twirl ]; then
 	cd "$(dirname "${BASH_SOURCE[0]}")" \
-		&& . "twirl"
+		&& . "./twirl"
 else
 	printf "\n ⚠️  ./twirl not found  💃🏾 First, you need to twirl on your haters\n"
 	exit 1
